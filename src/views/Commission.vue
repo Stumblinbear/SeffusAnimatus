@@ -39,7 +39,7 @@
 
             <div class="w-full p-2 bg-gray-200 rounded-xl">
                 <div class="flex p-2">
-                    This is a new area for me, so message me and we'll work something out :)
+                    This is a new area for me, so message me and we'll work something out!
                 </div>
             </div>
         </div>
