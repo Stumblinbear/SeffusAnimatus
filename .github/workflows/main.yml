@@ -9,11 +9,15 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Vue to Github Pages
-      # You may pin to the exact commit or the version.
-      # uses: xRealNeon/VuePagesAction@1fe4d0b38025bcbaafa71a359dd5c02f33bb03b7
-      uses: xRealNeon/VuePagesAction@1.0.0
-      with:
-        username: Stumblinbear
-        reponame: SeffusAnimatus
-        token: ${{ secrets.GITHUB_TOKEN }}
-        cname: seffusanimat.us
+      run: |
+            yarn ci
+            yarn build
+            cd dist
+            echo 'seffusanimat.us' > CNAME
+            git config --global user.email "${{ inputs.gitemail }}"
+            git config --global user.name "${{ inputs.gitname }}"
+            git init
+            git add -A
+            git commit -m '${{ inputs.gitmsg }}'
+            git push -f https://Stumblinbear:${{ secrets.GITHUB_TOKEN }}@github.com/Stumblinbear/SeffusAnimatus.git master:gh-pages
+      shell: bash
