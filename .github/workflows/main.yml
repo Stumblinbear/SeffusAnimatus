@@ -14,10 +14,10 @@ jobs:
             yarn build
             cd dist
             echo 'seffusanimat.us' > CNAME
-            git config --global user.email "${{ inputs.gitemail }}"
-            git config --global user.name "${{ inputs.gitname }}"
+            git config --global user.email "CI@example.com"
+            git config --global user.name "CI"
             git init
             git add -A
-            git commit -m '${{ inputs.gitmsg }}'
+            git commit -m 'Deploy'
             git push -f https://Stumblinbear:${{ secrets.GITHUB_TOKEN }}@github.com/Stumblinbear/SeffusAnimatus.git master:gh-pages
       shell: bash
