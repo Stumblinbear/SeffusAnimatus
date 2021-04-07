@@ -26,7 +26,7 @@
             <h2 class="text-2xl font-medium mb-3">Contact Me</h2>
 
             <div class="w-full p-2 bg-gray-200 rounded-xl">
-                <div class="flex p-2">
+                <div class="p-2">
                     You can message me on <a href="https://t.me/Stumblinbear" class="font-medium text-blue-500">Telegram</a> or on <a href="https://discord.gg/cvGz3bmpsG" class="font-medium text-blue-800">Discord</a> any time! :)
                 </div>
             </div>
