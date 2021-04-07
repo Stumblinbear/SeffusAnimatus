@@ -17,14 +17,6 @@
         size: {
             type: String,
             default: 'md'
-        },
-        left: {
-            type: Boolean,
-            default: false
-        },
-        right: {
-            type: Boolean,
-            default: false
         }
     });
 
