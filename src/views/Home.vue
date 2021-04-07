@@ -2,6 +2,7 @@
     <div class="w-full p-5 bg-white shadow rounded-lg text-gray-800">
         <a
                 href="https://patreon.com/Stumblinbear"
+                target="_blank"
                 class="block w-full px-3 py-5 bg-gray-200 text-lg rounded-md hover:bg-gray-300">
             <div class="float-left ml-1 mr-3">
                 <svg 
@@ -20,6 +21,7 @@
         
         <a
                 href="https://discord.gg/cvGz3bmpsG"
+                target="_blank"
                 class="block w-full px-3 py-5 mt-3 bg-gray-200 text-lg rounded-md hover:bg-gray-300">
             <div class="float-left mr-3">
                 <svg
@@ -37,6 +39,7 @@
         
         <a
                 href="https://t.me/SeffusAnimatus"
+                target="_blank"
                 class="block w-full px-3 py-5 mt-3 bg-gray-200 text-lg rounded-md hover:bg-gray-300">
             <div class="float-left mr-3">
                 <svg
@@ -67,6 +70,7 @@
 
         <a
                 href="https://t.me/SeffsChateau"
+                target="_blank"
                 class="block w-full px-3 py-3 mt-3 bg-gray-200 rounded-md hover:bg-gray-300">
             <div class="float-left ml-1 mr-4">
                 <svg
@@ -99,6 +103,7 @@
 
         <a
                 href="https://trello.com/b/cuazoiWm/animated-stickers"
+                target="_blank"
                 class="block w-full px-3 py-5 mt-3 bg-gray-200 rounded-md hover:bg-gray-300">
             <div class="float-left ml-1 mr-4">
                 <svg 
