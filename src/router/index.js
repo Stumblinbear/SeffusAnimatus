@@ -9,24 +9,34 @@ const routes = [
         path: '/',
         name: 'Home',
         component: Home,
+        meta: { title: 'Seffus Animatus' }
     }, {
         path: '/commission',
         name: 'Commission',
         component: Commission,
+        meta: { title: 'Seffus Animatus - Commissions' }
     }, {
         path: '/commission/collab',
         name: 'Collaborate',
         component: Collaborate,
+        meta: { title: 'Seffus Animatus - Collaboration' }
     }, {
         path: '/gallery',
         name: 'Gallery',
         component: Gallery,
+        meta: { title: 'Seffus Animatus - Gallery' }
     }
 ];
 
 const router = createRouter({
     history: createWebHashHistory(),
     routes,
+});
+
+router.afterEach((to, from) => {
+    Vue.nextTick(() => {
+        document.title = to.meta.title || 'Seffus Animatus';
+    });
 });
 
 export default router;
