@@ -27,7 +27,7 @@
 
             <div class="w-full p-2 bg-gray-200 rounded-xl">
                 <div class="flex p-2">
-                    You can message me on <a href="https://t.me/Stumblinbear" class="mx-1 font-medium text-blue-500">Telegram</a> or on <a href="https://discord.gg/cvGz3bmpsG" class="mx-1 font-medium text-blue-800">Discord</a> any time! :)
+                    You can message me on <a href="https://t.me/Stumblinbear" class="font-medium text-blue-500">Telegram</a> or on <a href="https://discord.gg/cvGz3bmpsG" class="font-medium text-blue-800">Discord</a> any time! :)
                 </div>
             </div>
         </div>
