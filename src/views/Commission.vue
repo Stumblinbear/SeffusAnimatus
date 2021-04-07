@@ -10,65 +10,73 @@
             <div class="flex">
                 <div v-for="id in stickers" :key="id"
                         class="w-1/2 mx-8 sm:mx-12 md:mx-16 mb-3">
-                    <sticker :sticker="id" />
+                    <s-sticker :sticker="id" />
                 </div>
             </div>
 
-            <div class="w-full p-2 bg-gray-200 rounded-xl">
-                <div class="flex p-2">
-                    <div class="w-full font-medium">Base Price</div>
-                    <div class="w-full text-right">20 USD</div>
-                </div>
-                <div class="flex p-2">
-                    <div class="w-full font-medium">Additional Characters</div>
-                    <div class="w-full text-right">5-10 USD</div>
-                </div>
-                <div class="flex p-2">
-                    <div class="w-full font-medium">Extra Versions</div>
-                    <div class="w-full text-right">5-10 USD</div>
-                </div>
-                <div class="flex p-2">
-                    <div class="w-full font-medium">NSFW</div>
-                    <div class="w-full text-right">5 USD</div>
-                </div>
+            <telegram-prices />
+
+            <div class="flex mt-2">
+                <router-link class="w-full" :to="{ name: 'CommissionTelegram' }">
+                    <s-button
+                            class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                            size="xs">
+                        <div class="flex-grow text-center">
+                            Get More Information
+                        </div>
+
+                        <icon-right />
+                    </s-button>
+                </router-link>
             </div>
         </div>
+
+        <s-header class="mt-5" title="Full Animations" />
+
+        <s-card>
+            <div class="flex">
+                <div class="w-full font-medium">Minimum Deposit</div>
+                <div class="w-full text-right">50 USD</div>
+            </div>
+            <div class="flex mt-2">
+                <div class="w-full font-medium">Hourly Rate</div>
+                <div class="w-full text-right">20 USD</div>
+            </div>
+
+            <hr class="mt-3" />
+
+            <div class="flex mt-2">
+                <div class="w-full font-medium">Average</div>
+                <div class="w-full text-right">75-125 USD</div>
+            </div>
+        </s-card>
+
+        <s-card class="mt-3">
+            Generally, I must work with the original artist to animate a full piece, however in some cases I may be able to work without it. Message me, and I'll let you know :)
+        </s-card>
+
+        <s-header class="mt-5" title="Discord Emojis" />
+
+        <s-card>
+            This is a new area for me, so message me and we'll work something out!
+        </s-card>
         
-        <div class="mt-5">
-            <h2 class="text-2xl font-medium mb-3">Discord Emojis</h2>
-
-            <div class="w-full p-2 bg-gray-200 rounded-xl">
-                <div class="flex p-2">
-                    This is a new area for me, so message me and we'll work something out!
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-5">
-            <h2 class="text-2xl font-medium mb-3">Full Animations</h2>
-
-            <div class="w-full p-2 bg-gray-200 rounded-xl">
-                <div class="flex p-2">
-                    Generally, I must work with the original artist to animate a full piece, however in some cases I may be able to work without it. Message me, and I'll let you know :)
-                </div>
-            </div>
-        </div>
-        
-        <div class="mt-5">
-            <h2 class="text-2xl font-medium mb-3">Contact Me</h2>
-
-            <div class="w-full p-2 bg-gray-200 rounded-xl">
-                <div class="p-2">
-                    You can message me on <a href="https://t.me/Stumblinbear" target="_blank" class="font-medium text-blue-500">Telegram</a> or on <a href="https://discord.gg/cvGz3bmpsG" target="_blank" class="font-medium text-blue-800">Discord</a> any time! :)
-                </div>
-            </div>
-        </div>
+        <contact-me />
     </div>
 </template>
 
 <script setup>
     import { computed } from 'vue';
-    import Sticker from '../components/Sticker.vue';
+
+    import SHeader from '../components/SHeader.vue';
+    import SCard from '../components/SCard.vue';
+    import SButton from '../components/SButton.vue';
+    import SSticker from '../components/SSticker.vue';
+    
+    import TelegramPrices from '../components/TelegramPrices.vue';
+    import ContactMe from '../components/ContactMe.vue';
+    
+    import IconRight from '../components/icons/Right.vue';
 
     const STICKERS = [ 'carry-the-yeen', 'corgin-shy', 'corgin-vr', 'doru-shy',
                        'seff-proud', 'sergeant-fluffy-headphone', 'shit-eating-grin', 'ych-fishing' ];

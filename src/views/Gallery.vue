@@ -11,7 +11,7 @@
 
 <script setup>
     import { computed } from 'vue';
-    import Sticker from '../components/Sticker.vue';
+    import Sticker from '../components/SSticker.vue';
 
     const STICKERS = [ 'AAAAAAAA', 'carry-the-yeen', 'corgin-shy', 'corgin-vr',
                        'doru-shy', 'seff-proud', 'sergeant-fluffy-headphone', 'shit-eating-grin',
