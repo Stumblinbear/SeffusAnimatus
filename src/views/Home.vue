@@ -15,7 +15,7 @@
                 <icon-discord class="mr-2" />
 
                 <div>
-                    Join the <span class="font-medium">Discord</span> group
+                    Join the <span class="font-medium">Discord</span> server
                 </div>
             </s-button>
         </a>
