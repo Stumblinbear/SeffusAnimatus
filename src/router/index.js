@@ -34,9 +34,7 @@ const router = createRouter({
 });
 
 router.afterEach((to, from) => {
-    Vue.nextTick(() => {
-        document.title = to.meta.title || 'Seffus Animatus';
-    });
+    document.title = to.meta.title || 'Seffus Animatus';
 });
 
 export default router;
