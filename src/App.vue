@@ -59,6 +59,15 @@
 
               <icon-patreon />
             </a>
+
+            <a
+                href="https://furrystation.com/Stumblinbear"
+                target="_blank"
+                class="transition-transform transform hover:scale-125">
+              <span class="sr-only">Furry Station</span>
+
+              <icon-furry-station />
+            </a>
           </div>
         </div>
       </div>
@@ -121,4 +130,5 @@
     import IconPatreon from './components/icons/Patreon.vue';
     import IconTelegram from './components/icons/Telegram.vue';
     import IconDiscord from './components/icons/Discord.vue';
+    import IconFurryStation from './components/icons/FurryStation.vue';
 </script>
