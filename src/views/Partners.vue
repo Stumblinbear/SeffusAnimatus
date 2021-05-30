@@ -76,7 +76,8 @@
                     <s-sticker sticker="felisrandomis" />
                 </div>
 
-                <prices :pricing="[
+                <prices name="Telegram Stickers"
+                    :pricing="[
                         [ 'Base Price', '40 USD' ],
                         [ 'Additional Characters', '5 USD' ],
                         [ 'NSFW', '5 USD' ],
@@ -110,7 +111,8 @@
                     <s-sticker sticker="cozyyote" />
                 </div>
 
-                <prices :pricing="[
+                <prices name="Telegram Stickers"
+                    :pricing="[
                         [ 'Base Price', '30 USD' ],
                         [ 'Additional Characters', '5-10 USD' ],
                         [ 'NSFW', 'Ask' ],
