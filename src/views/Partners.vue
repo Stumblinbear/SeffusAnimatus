@@ -37,14 +37,12 @@
                     <s-sticker sticker="dlw" />
                 </div>
 
-                <div class="w-full space-y-4">
-                    <prices name="Telegram Stickers"
-                        :pricing="[
-                            [ 'Base Price', '30 USD' ],
-                            [ 'Additional Characters', '10 USD' ],
-                            [ 'NSFW', '10 USD' ],
-                        ]" />
-                </div>
+                <prices name="Telegram Stickers"
+                    :pricing="[
+                        [ 'Base Price', '30 USD' ],
+                        [ 'Additional Characters', '10 USD' ],
+                        [ 'NSFW', '10 USD' ],
+                    ]" />
             </div>
 
             <prices :pricing="[
@@ -78,13 +76,11 @@
                     <s-sticker sticker="felisrandomis" />
                 </div>
 
-                <div class="w-full space-y-4">
-                    <prices :pricing="[
-                            [ 'Base Price', '40 USD' ],
-                            [ 'Additional Characters', '5 USD' ],
-                            [ 'NSFW', '5 USD' ],
-                        ]" />
-                </div>
+                <prices :pricing="[
+                        [ 'Base Price', '40 USD' ],
+                        [ 'Additional Characters', '5 USD' ],
+                        [ 'NSFW', '5 USD' ],
+                    ]" />
             </div>
 
             <a class="block" href="https://furaffinity.net/user/FelisRandomis" target="_blank">
@@ -114,13 +110,11 @@
                     <s-sticker sticker="cozyyote" />
                 </div>
 
-                <div class="w-full space-y-4">
-                    <prices :pricing="[
-                            [ 'Base Price', '30 USD' ],
-                            [ 'Additional Characters', '5-10 USD' ],
-                            [ 'NSFW', 'Ask' ],
-                        ]" />
-                </div>
+                <prices :pricing="[
+                        [ 'Base Price', '30 USD' ],
+                        [ 'Additional Characters', '5-10 USD' ],
+                        [ 'NSFW', 'Ask' ],
+                    ]" />
             </div>
 
             <a class="block" href="https://furaffinity.net/user/CozyYote" target="_blank">
