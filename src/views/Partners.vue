@@ -25,13 +25,6 @@
                 <h2 class="text-2xl font-medium mb-3">DLW</h2>
             </div>
 
-            <div class="flex">
-                <div v-for="id in stickers" :key="id"
-                        class="w-1/2 mx-8 sm:mx-12 md:mx-16 mb-3">
-                    <s-sticker :sticker="id" />
-                </div>
-            </div>
-
             <div class="flex space-x-2">
                 <div class="w-48">
                     <s-sticker sticker="dlw" />
