@@ -1,5 +1,5 @@
 <template>
-    <div ref="container" />
+    <div class="bg-gray-200 rounded-lg overflow-hidden" ref="container" />
 </template>
 
 <script setup>

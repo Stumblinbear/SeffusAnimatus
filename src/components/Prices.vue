@@ -1,5 +1,7 @@
 <template>
     <s-card class="space-y-1">
+        <h5 v-if="props.name" class="text-sm font-bold">{{ props.name }}</h5>
+
         <div v-for="(pair, i) in props.pricing" :key="i"
                 class="flex">
             <div class="w-full font-medium">{{ pair[0] }}</div>
@@ -14,6 +16,7 @@
     import SCard from './SCard.vue';
 
     const props = defineProps({
+        name: String,
         pricing: {
             type: Array
         }

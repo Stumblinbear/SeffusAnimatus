@@ -20,9 +20,9 @@
         
         <div class="space-y-2">
             <div class="flex items-center space-x-4">
-                <img class="h-16 rounded-lg bg-gray-300 shadow-xl" src="/assets/partners/felisrandomis.png" />
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/dlw.jpg" />
 
-                <h2 class="text-2xl font-medium mb-3">FelisRandomis</h2>
+                <h2 class="text-2xl font-medium mb-3">DLW</h2>
             </div>
 
             <div class="flex">
@@ -33,7 +33,50 @@
             </div>
 
             <div class="flex space-x-2">
-                <s-sticker class="w-48" sticker="felisrandomis" />
+                <div class="w-48">
+                    <s-sticker sticker="dlw" />
+                </div>
+
+                <div class="w-full space-y-4">
+                    <prices name="Telegram Stickers"
+                        :pricing="[
+                            [ 'Base Price', '30 USD' ],
+                            [ 'Additional Characters', '10 USD' ],
+                            [ 'NSFW', '10 USD' ],
+                        ]" />
+                </div>
+            </div>
+
+            <prices :pricing="[
+                    [ 'Full Illustration', 'Ask' ],
+                ]" />
+
+            <a class="block" href="https://furaffinity.net/user/DLW" target="_blank">
+                <s-button
+                        class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                        size="xs">
+                    <div class="flex-grow text-center">
+                        Go to FurAffinity
+                    </div>
+
+                    <icon-right />
+                </s-button>
+            </a>
+        </div>
+
+        <hr />
+        
+        <div class="space-y-2">
+            <div class="flex items-center space-x-4">
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/felisrandomis.png" />
+
+                <h2 class="text-2xl font-medium mb-3">FelisRandomis</h2>
+            </div>
+
+            <div class="flex space-x-2">
+                <div class="w-48">
+                    <s-sticker sticker="felisrandomis" />
+                </div>
 
                 <div class="w-full space-y-4">
                     <prices :pricing="[
@@ -41,33 +84,35 @@
                             [ 'Additional Characters', '5 USD' ],
                             [ 'NSFW', '5 USD' ],
                         ]" />
-
-                    <a class="block" href="https://furaffinity.net/user/FelisRandomis" target="_blank">
-                        <s-button
-                                class="font-medium text-white bg-purple-400 hover:bg-purple-500"
-                                size="xs">
-                            <div class="flex-grow text-center">
-                                Go to FurAffinity
-                            </div>
-
-                            <icon-right />
-                        </s-button>
-                    </a>
                 </div>
             </div>
+
+            <a class="block" href="https://furaffinity.net/user/FelisRandomis" target="_blank">
+                <s-button
+                        class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                        size="xs">
+                    <div class="flex-grow text-center">
+                        Go to FurAffinity
+                    </div>
+
+                    <icon-right />
+                </s-button>
+            </a>
         </div>
 
         <hr />
         
         <div class="space-y-2">
             <div class="flex items-center space-x-4">
-                <img class="h-16 rounded-lg bg-gray-300 shadow-xl" src="/assets/partners/cozyyote.jpg" />
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/cozyyote.jpg" />
 
                 <h2 class="text-2xl font-medium mb-3">CozyYote</h2>
             </div>
 
             <div class="flex space-x-2">
-                <s-sticker class="w-48" sticker="cozyyote" />
+                <div class="w-48">
+                    <s-sticker sticker="cozyyote" />
+                </div>
 
                 <div class="w-full space-y-4">
                     <prices :pricing="[
@@ -75,20 +120,20 @@
                             [ 'Additional Characters', '5-10 USD' ],
                             [ 'NSFW', 'Ask' ],
                         ]" />
-
-                    <a class="block" href="https://furaffinity.net/user/CozyYote" target="_blank">
-                        <s-button
-                                class="font-medium text-white bg-purple-400 hover:bg-purple-500"
-                                size="xs">
-                            <div class="flex-grow text-center">
-                                Go to FurAffinity
-                            </div>
-
-                            <icon-right />
-                        </s-button>
-                    </a>
                 </div>
             </div>
+
+            <a class="block" href="https://furaffinity.net/user/CozyYote" target="_blank">
+                <s-button
+                        class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                        size="xs">
+                    <div class="flex-grow text-center">
+                        Go to FurAffinity
+                    </div>
+
+                    <icon-right />
+                </s-button>
+            </a>
         </div>
     </div>
 </template>
