@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full p-5 bg-white shadow rounded-lg text-gray-800">
+    <div class="w-full p-5 bg-white shadow rounded-lg text-gray-800 space-y-5">
         <s-header title="Supported Payment Methods" />
 
         <s-card>
@@ -12,7 +12,7 @@
             </div>
         </s-card>
         
-        <s-card class="mt-5 text-center">
+        <s-card class="text-center">
             Is your favorite method not listed? Ask anyways, I'll see what I can do!
         </s-card>
     </div>

@@ -4,6 +4,7 @@ import Home from '../views/Home.vue';
 
 import Commission from '../views/Commission.vue'
 import CommissionTelegram from '../views/CommissionTelegram.vue'
+import Partners from '../views/Partners.vue';
 import Collaborate from '../views/Collaborate.vue';
 
 import Payment from '../views/Payment.vue';
@@ -27,6 +28,11 @@ const routes = [
         name: 'CommissionTelegram',
         component: CommissionTelegram,
         meta: { title: 'Seffus Animatus - Telegram' }
+    }, {
+        path: '/commission/partners',
+        name: 'Partners',
+        component: Partners,
+        meta: { title: 'Seffus Animatus - Partners' }
     }, {
         path: '/commission/collab',
         name: 'Collaborate',

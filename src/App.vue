@@ -91,8 +91,8 @@
           <router-link
               class="w-full p-3 m-1 text-center font-semibold bg-gray-200 rounded-md hover:bg-gray-300"
               active-class="bg-gray-300"
-              :to="{ name: 'Collaborate' }">
-            Collaborate
+              :to="{ name: 'Partners' }">
+            Partners
           </router-link>
         </div>
 

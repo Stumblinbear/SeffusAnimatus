@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full p-5 bg-white shadow rounded-lg text-gray-800">
+    <div class="w-full p-5 bg-white shadow rounded-lg text-gray-800 space-y-3">
         <a href="https://patreon.com/Stumblinbear" target="_blank">
             <s-button>
                 <icon-patreon class="mr-2" />
@@ -10,7 +10,7 @@
             </s-button>
         </a>
         
-        <a class="block mt-3" href="https://discord.gg/cvGz3bmpsG" target="_blank">
+        <a class="block" href="https://discord.gg/cvGz3bmpsG" target="_blank">
             <s-button>
                 <icon-discord class="mr-2" />
 
@@ -20,7 +20,7 @@
             </s-button>
         </a>
         
-        <a class="block mt-3" href="https://t.me/SeffusAnimatus" target="_blank">
+        <a class="block" href="https://t.me/SeffusAnimatus" target="_blank">
             <s-button>
                 <icon-telegram class="mr-2" />
 
@@ -30,7 +30,7 @@
             </s-button>
         </a>
 
-        <a class="block mt-3" href="https://t.me/SeffsChateau" target="_blank">
+        <a class="block" href="https://t.me/SeffsChateau" target="_blank">
             <s-button size="sm">
                 <icon-telegram class="ml-1 mr-3" size="sm" />
 
@@ -40,10 +40,10 @@
             </s-button>
         </a>
 
-        <hr class="my-3" />
+        <hr />
 
-        <a href="https://trello.com/b/cuazoiWm/animated-stickers" target="_blank">
-            <s-button>
+        <a class="block" href="https://trello.com/b/cuazoiWm/animated-stickers" target="_blank">
+            <s-button size="sm">
                 <icon-trello class="mr-2" />
 
                 <div>
