@@ -20,7 +20,7 @@
         
         <div class="space-y-2">
             <div class="flex items-center space-x-4">
-                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/dlw.jpg" />
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/dlw.png" />
 
                 <h2 class="text-2xl font-medium mb-3">DLW</h2>
             </div>
@@ -164,7 +164,7 @@
         
         <div class="space-y-2">
             <div class="flex items-center space-x-4">
-                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/cozyyote.jpg" />
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/cozyyote.png" />
 
                 <h2 class="text-2xl font-medium mb-3">CozyYote</h2>
             </div>
