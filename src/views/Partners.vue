@@ -94,6 +94,76 @@
         
         <div class="space-y-2">
             <div class="flex items-center space-x-4">
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/softpauxs.jpg" />
+
+                <h2 class="text-2xl font-medium mb-3">SoftPauxs</h2>
+            </div>
+
+            <div class="flex space-x-2">
+                <div class="w-48">
+                    <s-sticker sticker="softpauxs" />
+                </div>
+
+                <prices name="Telegram Stickers"
+                    :pricing="[
+                        [ 'Base Price', '35 USD' ],
+                        [ 'Additional Characters', '10-15 USD' ],
+                        [ 'NSFW', '5' ],
+                    ]" />
+            </div>
+
+            <a class="block" href="https://t.me/SoftPauxs" target="_blank">
+                <s-button
+                        class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                        size="xs">
+                    <div class="flex-grow text-center">
+                        Go to Telegram
+                    </div>
+
+                    <icon-right />
+                </s-button>
+            </a>
+        </div>
+
+        <hr />
+        
+        <div class="space-y-2">
+            <div class="flex items-center space-x-4">
+                <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/reyngoldfur.png" />
+
+                <h2 class="text-2xl font-medium mb-3">Reyn Goldfur</h2>
+            </div>
+
+            <div class="flex space-x-2">
+                <div class="w-48">
+                    <s-sticker sticker="reyngoldfur" />
+                </div>
+
+                <prices name="Telegram Stickers"
+                    :pricing="[
+                        [ 'Base Price', '30 USD' ],
+                        [ 'Additional Characters', '10 USD' ],
+                        [ 'NSFW', '5' ],
+                    ]" />
+            </div>
+
+            <a class="block" href="https://www.furaffinity.net/user/reynpuppeh" target="_blank">
+                <s-button
+                        class="font-medium text-white bg-purple-400 hover:bg-purple-500"
+                        size="xs">
+                    <div class="flex-grow text-center">
+                        Go to FurAffinity
+                    </div>
+
+                    <icon-right />
+                </s-button>
+            </a>
+        </div>
+
+        <hr />
+        
+        <div class="space-y-2">
+            <div class="flex items-center space-x-4">
                 <img class="h-16 rounded-lg bg-gray-300 shadow-md" src="/assets/partners/cozyyote.jpg" />
 
                 <h2 class="text-2xl font-medium mb-3">CozyYote</h2>
