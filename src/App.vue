@@ -91,8 +91,8 @@
           <router-link
               class="w-full p-3 m-1 text-center font-semibold bg-gray-200 rounded-md hover:bg-gray-300"
               active-class="bg-gray-300"
-              :to="{ name: 'Partners' }">
-            Partners
+              :to="{ name: 'Shippables' }">
+            Shippables
           </router-link>
         </div>
 
@@ -103,6 +103,13 @@
               :to="{ name: 'Gallery' }">
             Gallery
           </router-link>-->
+
+          <router-link
+              class="w-full p-3 m-1 text-center font-semibold bg-gray-200 rounded-md hover:bg-gray-300"
+              active-class="bg-gray-300"
+              :to="{ name: 'Partners' }">
+            Partners
+          </router-link>
 
           <router-link
               class="w-full p-3 m-1 text-center font-semibold bg-gray-200 rounded-md hover:bg-gray-300"

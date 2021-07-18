@@ -2,8 +2,9 @@ import { createWebHashHistory, createRouter } from 'vue-router';
 
 import Home from '../views/Home.vue';
 
-import Commission from '../views/Commission.vue'
-import CommissionTelegram from '../views/CommissionTelegram.vue'
+import Commission from '../views/Commission.vue';
+import CommissionTelegram from '../views/CommissionTelegram.vue';
+import Shippables from '../views/Shippables.vue';
 import Partners from '../views/Partners.vue';
 import Collaborate from '../views/Collaborate.vue';
 
@@ -28,6 +29,11 @@ const routes = [
         name: 'CommissionTelegram',
         component: CommissionTelegram,
         meta: { title: 'Seffus Animatus - Telegram' }
+    }, {
+        path: '/commission/shippables',
+        name: 'Shippables',
+        component: Shippables,
+        meta: { title: 'Seffus Animatus - Shippables' }
     }, {
         path: '/commission/partners',
         name: 'Partners',
